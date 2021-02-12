@@ -1,0 +1,9 @@
+this small project about a small body 
+which is alway going to be responsive
+by changing the display properto in the body element to inline-block
+display: inline-block; 
+
+-limitiing the width property
+    max-width: 600px;
+    max-height: max-content;
+

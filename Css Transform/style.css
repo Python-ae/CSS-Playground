@@ -1,0 +1,30 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    height: 200px;
+    background-color: #EEE;
+    margin: 100px;
+    padding: 10px;
+    border: 1px solid #CCC;
+    overflow: visible;
+}
+
+.translate {
+    background-color: #080;
+    color: #FFF;
+    text-align: center;
+    height: 180px;
+    /* animation smothly */
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.translate:hover{
+    -webkit-transform: translateX(160px) scale(1.1) rotate(30deg);
+    transform: translateX(160px) scale(1.1) rotate(30deg);
+}

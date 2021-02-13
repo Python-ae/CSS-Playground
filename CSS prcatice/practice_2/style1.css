@@ -1,0 +1,27 @@
+body{
+    background-color: grey;
+    align-content: center;
+}
+
+.container{
+    
+    /* width :450px; */
+    /* max-width: 200px; */
+    margin-left: 200px;
+    margin-right: 200px;
+    /* position: absolute; */
+    background: darkgrey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-gap: 4px;
+    justify-items: center;
+    align-items: center;
+}
+
+.box{
+    width: 99%;
+    height: 100px;
+    text-align: center;
+    background: darkkhaki;
+}

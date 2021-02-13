@@ -1,0 +1,28 @@
+body{
+    background-color: grey;
+    align-content: center;
+}
+
+.container{
+    margin-left: 33%;
+    margin-right: 33%;
+    
+    background: darkgrey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 4px;
+    justify-items: center;
+    align-items: center;
+}
+
+.box{
+    
+    width: 99%;
+    height: 100px;
+    background: rgb(113, 118, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

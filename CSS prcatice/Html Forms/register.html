@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="home">
+        <a  href="html_forms.html">Home</a> 
+    </div>
+    <h2>Register</h2>
+    <h4>Enter your account information</h3>
+    <form action="GET">
+        <label for="firstname">First Name:</label>
+        <input type="text" name="firstname" required>
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="lastname">
+        <label for="email">Email:</label>
+        <input type="email" name="email">
+        <label for="password">Password: </label>
+        <input type="password" name="password1">
+        <label for="password2">Confirm Password:</label>
+        <input type="password" name="password2">
+
+        <label for="likeProgramming">Do You like Programming?</label>
+        <div>
+            <input type="radio" name="likeProgramming"><label for="">Yes</label>
+            <input type="radio" name="likeProgramming"><label for="">No</label>
+        </div>
+            
+
+        
+        <label for="fav_language">What's your favorite language:</label>
+            <select name="fav_language">
+                <option value="html" name="html">HTML5 </option>
+                <option value="python" name="python">Python</option>
+                <option value="javaScript" name="javascript">JavaScript</option>
+                <option value="other" name="other">Other</option>
+            </select>
+        <div class="center-btns" class="buttons1" >
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>
+
+<!-- 
+http://127.0.0.1:5500/GET?
+firstname=lkj
+&lastname=lkj
+&password1=lkj
+&password2=lkj
+&likeProgramming=on
+&fav_language=JavaScript
+ -->

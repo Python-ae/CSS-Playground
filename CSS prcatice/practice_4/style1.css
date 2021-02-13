@@ -1,0 +1,40 @@
+body{
+    background-color: grey;
+    /* align-content: center; */
+    
+    /* these properties are for centering */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50% , -50% );
+}
+
+.container{
+    
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    border-radius: 10px;
+    width: 320px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: darkgrey;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 5px;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.box{
+    font-size: 2rem;
+    width: 100px;
+    height: 100px;
+    background: rgb(213, 174, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}

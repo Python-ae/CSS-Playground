@@ -28,3 +28,27 @@
     -webkit-transform: translateX(160px) scale(1.1) rotate(30deg);
     transform: translateX(160px) scale(1.1) rotate(30deg);
 }
+
+.container2{
+    width:400px;
+    background-color: khaki;
+    margin: 100px auto;
+    padding: 10px;
+    border: 1px solid #CCC;
+    height: 200px; 
+}
+.scale {
+    background-color: #080;
+    color: #fff;
+    text-align: center;
+    height: 200px
+}
+.rotate{
+    background: rgb(156, 145, 145);
+    border: 2px solid firebrick;
+    padding: 10px;
+    
+}
+.rotate:hover{
+    transform: rotate(-20deg);
+}

@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+section{
+    width: 940px;
+    margin: 20px auto;
+    background: #EEE;
+    overflow: hidden;
+}
+
+
+.left{
+    float:left;
+    width: 20%;
+    background-color: #F00;
+    color: white;
+    padding: 10px;
+    /* border: 1px solid yellow; */
+}
+
+.right {
+    float: right;
+    width: 80%;
+    background-color: #00F;
+    color:#FFF;
+    padding: 10px;
+}

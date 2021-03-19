@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+/* arbic font */
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&display=swap');
+
+ol{
+    margin-left: 15px;
+}
+li {
+    margin: 0.6em 0px;
+}
+
+.ar > span{
+ color: rgb(6, 17, 114);
+ font-family: 'Aref Ruqaa', serif;
+ /* font-size: 2em; */
+ font-weight:800;
+}
+
+::marker {
+    font-size: 1.5em;
+    color: #f39189;
+    font-family: "Poppins", snas-serif;
+    text-shadow: 1px 1px black;
+}
+
+li {
+    font-family: "Poppins";
+    /* font-size: 1.5em; */
+}
+li::after{
+    content: "---->";
+    margin: 3px;
+    
+}
+li::after{
+    font-family: "Poppins";
+    font-size: 1.2em;
+    color: black;
+    
+}
+
+li::before {
+    font-family: "Poppins";
+    color: black;
+    font-size: 2.8em;
+    content: ">";
+    position: absolute;
+    transform: translate(-50px , -25px);
+    
+}
+
+/*
+::marker styling source: 
+https://twitter.com/Prathkum/status/1372435353949384706?s=20s
+
+*/
